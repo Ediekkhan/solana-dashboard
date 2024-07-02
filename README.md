@@ -13,7 +13,7 @@ This project is a dashboard that displays data mostly from the Solana ecosystem 
 -   git clone https://github.com/Ediekkhan/solana-dashboard.git
 
 ## 2. Install dependencies:
--   cd solana-ecosystem-dashboard
+-   cd solana-dashboard
 -   npm install
 
 ## 3. Start the development server:
