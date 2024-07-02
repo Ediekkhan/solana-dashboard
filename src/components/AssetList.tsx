@@ -33,10 +33,10 @@ const AssetList: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-semibold text-center mb-8">Solana Assets</h1>
+      <h1 className="text-3xl font-semibold text-center mb-8">Digital Assets</h1>
       <ul className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {assets.map((asset) => (
-          <li key={asset.profileId} className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <li key={asset.profileId} className="bg-white rounded-3xl m-4 shadow-md p-4 flex flex-col items-center">
             <img src={asset.profile.logo} alt={`${asset.profile.name} logo`} className="h-16 w-40 mb-4"/>
             <h2 className="text-xl font-semibold text-center">{asset.profile.name}</h2>
             <p className="text-gray-700 text-center">{asset.profile.descriptionShort}</p>
