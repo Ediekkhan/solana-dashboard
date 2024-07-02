@@ -10,11 +10,11 @@ This project is a dashboard that displays data from the Solana ecosystem using T
 
 ### Setup
 1. Clone the repository:
- git clone https://github.com/Ediekkhan/solana-dashboard.git
+    git clone https://github.com/Ediekkhan/solana-dashboard.git
 
 2. Install dependencies:
-cd solana-ecosystem-dashboard
-npm install
+    cd solana-ecosystem-dashboard
+    npm install
 
 3. Start the development server:
-npm start
+    npm start
