@@ -38,7 +38,6 @@ const AssetList: React.FC = () => {
     } else {
       const filtered = data.assets.filter((asset: Asset) =>
         asset.profile.name.toLowerCase().includes(query) ||
-        // asset.shortDescription.toLowerCase().includes(query) ||
         asset.profile.descriptionShort.toLowerCase().includes(query)
       );
       setFilteredAssets(filtered);
