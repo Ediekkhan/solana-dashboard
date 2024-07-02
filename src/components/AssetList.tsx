@@ -7,7 +7,6 @@ interface Profile {
   urlDocumentation: string;
   foundingDate: string;
   logo: string;
-  id: string;
   name: string;
   descriptionShort: string;
 }
